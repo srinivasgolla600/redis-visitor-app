@@ -22,5 +22,6 @@ def hello():
     count = get_hit_count()
     return f'Hello World! I have been seen {count} times.\n'
 
+Print ("hello vasuki")
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000)
