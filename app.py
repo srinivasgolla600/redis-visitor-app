@@ -20,8 +20,6 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return f'Hello World! I have been seen {count} times.\n'
-
-Print ("hello vasuki")
+    return f'Hello World! I have been seen {count} times. hello vasuki.\n'
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000)
